@@ -29,9 +29,9 @@ pktgen.range.src_port("all", "max", 2500);
 
 
 pktgen.range.pkt_size("all", "start", 64);
-pktgen.range.pkt_size("all", "inc", 0);
+pktgen.range.pkt_size("all", "inc", 1);
 pktgen.range.pkt_size("all", "min", 64);
-pktgen.range.pkt_size("all", "max", 512);
+pktgen.range.pkt_size("all", "max", 1024);
 
 pktgen.set_range("all", "on");
 pktgen.start("all");
